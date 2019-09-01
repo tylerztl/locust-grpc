@@ -1,0 +1,28 @@
+/*
+Copyright zhigui Corp. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+
+syntax = "proto3";
+
+option java_package = "org.fabric-orderer-benchmark.protos";
+option go_package = "fabric-orderer-benchmark/protos";
+
+package protos;
+
+enum StatusCode {
+    SUCCESS = 0;
+    FAILED = 1;
+}
+
+message ResponseStatus {
+    StatusCode status = 1;
+}
+
+message SendTransactionRequest {
+}
+
+// Interface exported by the server.
+service Ote {
+    rpc SendTransaction (SendTransactionRequest) returns (ResponseStatus) {}
+}

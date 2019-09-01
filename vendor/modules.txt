@@ -1,0 +1,19 @@
+# github.com/asaskevich/EventBus v0.0.0-20180315140547-d46933a94f05
+github.com/asaskevich/EventBus
+# github.com/golang/protobuf v1.3.2
+github.com/golang/protobuf/proto
+# github.com/google/uuid v1.1.1
+github.com/google/uuid
+# github.com/mattn/go-runewidth v0.0.4
+github.com/mattn/go-runewidth
+# github.com/myzhan/boomer v0.0.0-20190713082008-307abf52aca9
+github.com/myzhan/boomer
+# github.com/olekukonko/tablewriter v0.0.1
+github.com/olekukonko/tablewriter
+# github.com/ugorji/go/codec v1.1.7
+github.com/ugorji/go/codec
+# github.com/zeromq/goczmq v4.1.0+incompatible
+github.com/zeromq/goczmq
+# github.com/zeromq/gomq v0.0.0-20181008000130-95dc37dee5c4
+github.com/zeromq/gomq
+github.com/zeromq/gomq/zmtp
