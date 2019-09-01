@@ -21,3 +21,6 @@ locust -f dummy.py --master --master-bind-host=127.0.0.1 --master-bind-port=5557
 ```
 go run boomer.go --master-host=127.0.0.1 --master-port=5557  
 ```
+
+### web test
+visit：http://127.0.0.1:8089/
