@@ -1,0 +1,13 @@
+#
+# Copyright zhigui Corp. All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+version: '2'
+
+services:
+  locust-grpc-slave:
+    network_mode: "host"
+    container_name: locust-grpc
+    image: hyperledger/locust-grpc
+    command: /locust-grpc --master-host=127.0.0.1 --master-port=5557
