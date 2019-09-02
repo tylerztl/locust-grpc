@@ -12,4 +12,6 @@ require (
 	github.com/ugorji/go v1.1.7 // indirect
 	github.com/zeromq/goczmq v4.1.0+incompatible // indirect
 	github.com/zeromq/gomq v0.0.0-20181008000130-95dc37dee5c4 // indirect
+	golang.org/x/net v0.0.0-20190827160401-ba9fcec4b297
+	google.golang.org/grpc v1.23.0
 )
