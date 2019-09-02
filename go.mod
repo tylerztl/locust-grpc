@@ -1,4 +1,4 @@
-module locust
+module locust-grpc
 
 go 1.12
 
