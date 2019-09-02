@@ -24,3 +24,19 @@ go run boomer.go --master-host=127.0.0.1 --master-port=5557
 
 #### web test
 visit：http://127.0.0.1:8089/
+
+## Docker started
+
+### build locust slave image
+```
+docker build -t hyperledger/locust-grpc .
+```
+
+### run master
+```
+nohup locust -f dummy.py --master --master-bind-host=127.0.0.1 --master-bind-port=5557 > locust.log 2>&1 &
+```
+#### run slave
+```
+docker-compose up -d
+```
