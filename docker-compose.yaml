@@ -10,4 +10,4 @@ services:
     network_mode: "host"
     container_name: locust-grpc
     image: hyperledger/locust-grpc
-    command: /locust-grpc --master-host=127.0.0.1 --master-port=5557
+    command: /locust-grpc -url "127.0.0.1:8080" --master-host=127.0.0.1 --master-port=5557
