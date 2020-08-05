@@ -3,23 +3,23 @@
 ### Prerequisites
 - Go 1.10+ installation or later
 - GOPATH environment variable is set correctly
-- Python 2.7.10+ installation or later
+- Python 3.8 installation
 
 ## Getting started
 
-### install locust
+### install [locust](https://docs.locust.io/en/stable/index.html)
 ```
 pip install locust
 ```
 
 ### run master
 ```
-locust -f dummy.py --master --master-bind-host=127.0.0.1 --master-bind-port=5557
+ locust --master -f dummy.py
 ```
 
 #### run slave
 ```
-go run boomer.go --master-host=127.0.0.1 --master-port=5557  
+go run boomer.go --max-rps 1000
 ```
 
 #### web test
